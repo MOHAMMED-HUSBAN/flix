@@ -1,0 +1,52 @@
+body {
+    background: rgb(255, 255, 255);
+  }
+  
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 10px;
+    height: 500px;
+  }
+
+  .header {
+    background: #7f7f7f;
+    display: flex;
+    grid-column: 1/-1;
+    
+  }
+  
+  .footer {
+    background: #7f7f7f;
+    display: flex;
+    grid-column: 1/-1;
+    
+  }
+  .a {
+    background: rgb(77, 158, 182);
+    display: flex;
+    grid-row: 2/7;
+    grid-column: 1/4;
+   
+  }
+
+  .b {
+    background: rgb(195, 236, 239);
+    display: flex;
+    grid-row: 2/7;
+    grid-column: 4/10;
+    
+    
+  }
+  .imgall {
+    display: flex;
+    align-items: end;
+    
+  }
+.img{
+
+    height: 100px;
+    width: 100px;
+    margin-left: 25px;
+
+}
