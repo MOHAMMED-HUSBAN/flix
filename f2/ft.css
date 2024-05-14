@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(58, 56, 56);
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(80, 203, 221);
+    width: 260px;
+    height: 430px;
+    margin-left: 50px;
+    border-radius: 15px;
+    
+}
+
+.data{
+
+    display: inline-block;
+
+}
+.child{
+    margin-left: 75px;
+}
+
